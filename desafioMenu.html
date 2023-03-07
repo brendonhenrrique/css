@@ -7,8 +7,47 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
-    </style>
+        div{
+            height: 100%;
+            width: 100%;
+            background-color: #222;
+            border-bottom: solid 5px #4fadd4;
+        }
+        .menu{
+            position: absolute;
+            left: 600px ;
+            top: 10px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+         } 
+         .botao{
+            font-size: 28px;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+         }
+         .destaque{
+            color: #fff;
+            background: red;
+            box-shadow: 2px 2px 1px 1px #222;
+         }
+         .destaque:active{
+            box-shadow: none;
+        }
+        header{
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+  </style>
 </head>
 
 <body>
@@ -39,7 +78,7 @@
         </nav>
         <aside class="autenticacao">
             <a href="#login">Login</a>
-            <a href="#registar" class="botao destaque">Registrar</a>
+            <a href="#registrar" class="botao destaque">Registrar</a>
         </aside>
     </header>
 
